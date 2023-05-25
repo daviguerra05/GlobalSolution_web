@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;500;600;700;800&display=swap');
+
+@media screen and (max-width: 800px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        scroll-behavior: smooth;
+    }
+
+    body{
+        font-family: 'Wix Madefor Display', sans-serif;
+    }
+
+    /* ------------------------------------------------------------------------------------------------------------------------------------- */
+    /* -----------------------------------------------------------HOME---------------------------------------------------------------------- */
+    /* ------------------------------------------------------------------------------------------------------------------------------------- */
+    #home{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        /* height: 100svh; */
+
+        background-image: url('../images/planta1.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .h_Texts{
+        padding: 33% 0% 0 5%;
+        color: #eff6ee;
+    }
+    .h_title{
+        font-size: 20vw;
+        font-weight: 900;
+        line-height: 1;
+    }
+    .h_paragraph{
+        padding-top: 1%;
+        font-size: 7.5vw;
+        font-weight: 500;
+        line-height: 1;
+        letter-spacing: 2px;
+    }
+
+    .h_button_container{
+        padding: 10% 0 20% 5%;
+
+    }
+
+    .h_button{
+        border: #eff6ee solid 1px;
+        border-radius: 50px;
+        padding: 3% 20% 3% 20%;
+        text-decoration: none;
+        color: #eff6ee;
+        user-select: none;
+        transition: 0.3s ease;
+        font-size: 5vw;
+        font-weight: 500;
+    }
+
+    .h_button:hover{
+        background: #eff6ee;
+        color: black;
+    }
+
+    /* ------------------------------------------------------------------------------------------------------------------------------------- */
+    /* -----------------------------------------------------------FOME---------------------------------------------------------------------- */
+    /* ------------------------------------------------------------------------------------------------------------------------------------- */ 
+
+    #fome{
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        background: #eff6ee;
+    
+    }
+
+    .f_left{
+        width: 8%;
+        height: 100vh;
+        border: black solid 3px;
+        display: flex;
+        flex-direction: column;
+        justify-content:end;
+    }
+
+    .f_left_footer{
+        font-size: 30pt;
+    }
+
+    /* ------------------------------------------------------------------------------------------------------------------------------------- */
+    /* -----------------------------------------------------------AI------------------------------------------------------------------------ */
+    /* ------------------------------------------------------------------------------------------------------------------------------------- */
+
+    #AI{
+        width: 100%;
+        height: 300vh;
+        height: 300svh;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 8%;
+
+        background: #030304;
+        color: #eff6ee;
+    }
+
+    .AI_img{
+        width: 80%;
+        height: 30vh;
+        position: sticky;
+        top: 15%;
+        transform: scaleX(-1);
+    }
+
+    .AI_Title{
+        padding-top: 25%;
+        padding-left: 5%;
+    }
+
+    .AI_Title h1{
+        font-size: 8vw;
+        font-weight: 900;
+        letter-spacing: 0.1px;
+    }
+
+    .AI_Title p{
+        display: none;
+        font-size: 3vw;
+        font-weight: 400;
+        letter-spacing: 0.1px;
+    }
+
+    /* ------------------------------------------------------------------------------------------------------------------------------------- */
+    /* -----------------------------------------------------------SEC2---------------------------------------------------------------------- */
+    /* ------------------------------------------------------------------------------------------------------------------------------------- */
+
+    #sec2{
+        width: 100%;
+        height: 200vh;
+        background: white;
+    }
+
+}

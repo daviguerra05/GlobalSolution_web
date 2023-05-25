@@ -28,17 +28,18 @@ body{
 }
 
 .h_Texts{
-    padding: 30% 32% 0 5%;
+    padding: 30% 25% 0 5%;
     color: #eff6ee;
 }
 .h_title{
-    font-size: 80pt;
+    font-size: 5.5vw;
     font-weight: 800;
     line-height: 0.9;
 }
 .h_paragraph{
     padding-top: 1%;
-    font-size: 25pt;
+    font-size: 1.7vw;
+    font-weight: 500;
 }
 
 .h_button_container{
@@ -54,7 +55,8 @@ body{
     color: #eff6ee;
     user-select: none;
     transition: 0.3s ease;
-    font-size: 15pt;
+    font-size: 1.3vw;
+    font-weight: 500;
 }
 
 .h_button:hover{
@@ -105,25 +107,26 @@ body{
 
 .AI_img{
     width: 50%;
-    height: 70vh;
+    height: 90vh;
     position: sticky;
-    top: 8%;
+    top: 5%;
     transform: scaleX(-1);
 }
 
 .AI_Title{
-    padding-top: 12%;
-    padding-left: 5%;
+    padding-top: 15%;
+    padding-left: 8%;
 }
 
 .AI_Title h1{
-    font-size: 40pt;
+    font-size: 4vw;
     font-weight: 900;
     letter-spacing: 0.1px;
 }
 
 .AI_Title p{
-    font-size: 20pt;
+    padding-top: 1%;
+    font-size: 1.5vw;
     font-weight: 400;
     letter-spacing: 0.1px;
 }
