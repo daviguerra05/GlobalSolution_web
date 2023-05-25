@@ -15,8 +15,10 @@ body{
 /* ------------------------------------------------------------------------------------------------------------------------------------- */
 #home{
     width: 100%;
-    height: 100vh;
-    height: 100svh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* height: 100svh; */
 
     background-image: url('../images/planta1.jpg');
     background-position: center;
@@ -26,7 +28,7 @@ body{
 }
 
 .h_Texts{
-    padding: 25% 0 0 5%;
+    padding: 30% 32% 0 5%;
     color: #eff6ee;
 }
 .h_title{
@@ -35,14 +37,13 @@ body{
     line-height: 0.9;
 }
 .h_paragraph{
-    /* padding-left: 0.5%;
-    padding-right: 35%; */
-    padding: 1% 35% 0 0.5%;
+    padding-top: 1%;
     font-size: 25pt;
 }
 
 .h_button_container{
-    padding: 2% 0 0 5%;
+    padding: 2% 0 20% 5%;
+
 }
 
 .h_button{
@@ -68,9 +69,9 @@ body{
 #fome{
     position: relative;
     width: 100%;
-    height: 200vh;
+    height: 100vh;
     background: #eff6ee;
-    z-index: 2;
+  
 }
 
 .f_left{
