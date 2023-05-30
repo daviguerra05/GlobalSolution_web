@@ -30,6 +30,7 @@ body{
 .h_Texts{
     padding: 30% 25% 0 5%;
     color: #eff6ee;
+    user-select: none;
 }
 .h_title{
     font-size: 5.5vw;
@@ -73,22 +74,54 @@ body{
     width: 100%;
     height: 100vh;
     background: #eff6ee;
-  
 }
 
-.f_left{
-    width: 8%;
-    height: 100vh;
-    border: black solid 3px;
+.fome_container{
+    background: white;
+    width: 100%;
+    height: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content:end;
 }
 
-.f_left_footer{
-    font-size: 30pt;
+.fome_left{
+    width: 1%;
 }
 
+.fome_right{
+    flex: 1;
+    /* background: green; */
+    display: flex;
+    padding-right: 8%;
+}
+
+#fome_right_texts{
+    /* background: yellow; */
+    padding: 10% 0 0 15%;
+}
+
+#fome_right_texts h1{
+    font-size: 4vw;
+    font-weight: 800;
+}
+
+#fome_right_texts p{
+    font-size: 1.2vw;
+    font-weight: 400;
+    padding-right: 30%;
+}
+
+#fome_right_img{
+    width: 40%;
+    min-width: 35%;
+    height: 80%;
+    border-radius: 100px;
+    margin: 5% 10% 5% 0;
+
+    background-image: url('../images/arroz1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 /* ------------------------------------------------------------------------------------------------------------------------------------- */
 /* -----------------------------------------------------------AI------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------------------------------------------------------------------- */
