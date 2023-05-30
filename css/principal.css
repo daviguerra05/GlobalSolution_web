@@ -114,14 +114,21 @@ body{
     width: 40%;
     min-width: 35%;
     height: 80%;
-    border-radius: 100px;
+    border-radius: 20%;
     margin: 5% 10% 5% 0;
+    transition: all 1s ease-in-out;
 
     background-image: url('../images/arroz1.jpg');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
 }
+
+#fome_right_img:hover{
+    background-size: 120%;
+    background-position: bottom;
+}
+
 /* ------------------------------------------------------------------------------------------------------------------------------------- */
 /* -----------------------------------------------------------AI------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------------------------------------------------------------------- */
