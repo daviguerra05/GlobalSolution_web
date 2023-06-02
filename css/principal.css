@@ -9,8 +9,13 @@
 body{
     font-family: 'Wix Madefor Display', sans-serif;
     overflow-x: hidden;
+    color: rgb(94, 94, 94);
+    background: #f9fcf8;
 }
 
+h2{
+    background-color: rgb(94, 94, 94);
+}
 /* ------------------------------------------------------------------------------------------------------------------------------------- */
 /* -----------------------------------------------------------Menu---------------------------------------------------------------------- */
 /* ------------------------------------------------------------------------------------------------------------------------------------- */
@@ -21,6 +26,9 @@ header{
     z-index: 1000;
 }
 
+nav{
+    padding-top: 1%;
+}
 
 
 /* ------------------------------------------------------------------------------------------------------------------------------------- */
@@ -33,7 +41,7 @@ header{
     flex-direction: column;
     /* height: 100svh; */
 
-    background-image: url('../images/planta1.jpg');
+    background-image: url('../images/planta1r.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -86,7 +94,6 @@ header{
     position: relative;
     width: 100%;
     height: 200vh;
-    background: #f9fcf8;
     display: flex;
     flex-direction: column;
 }
@@ -103,13 +110,11 @@ header{
 
 .fome_right{
     flex: 1;
-    /* background: green; */
     display: flex;
     padding-right: 8%;
 }
 
 #fome_right_texts{
-    /* background: yellow; */
     padding: 10% 0 0 15%;
 }
 
@@ -123,7 +128,6 @@ header{
     height: 1px;
     margin-top: 1%;
     margin-bottom: 1%;
-    background: #030304;
 }
 
 #fome_right_texts p{
@@ -139,7 +143,7 @@ header{
     margin: 5% 10% 0 0;
     transition: all 0.5s ease-in-out;
 
-    background-image: url('../images/arroz1.jpg');
+    background-image: url('../images/arroz1r.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 120%;
@@ -147,14 +151,12 @@ header{
 
 #fome_right_img:hover{
     background-size: 130%;
-    /* background-position: bottom; */
 }
 
 /*-------------------------------------------------------*/
 
 #fome_divider{
-    font-size: 3vw;
-    color: black;
+    font-size: 3vw; 
     white-space: nowrap;
     user-select: none;
 }
@@ -213,7 +215,6 @@ header{
     flex-direction: column;
     width: 100%;
     height: 100vh;
-    background: #eff6ee;
 }
     
 .carro_title{
