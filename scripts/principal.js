@@ -1,5 +1,10 @@
 const toggle = document.querySelector('#toggle')
-const fome = document.querySelector('#fome')
+const body = document.querySelector('body')
+const h2 = document.querySelector('h2')
+const ai = document.querySelector('#AI')
+
+var white = "white"
+var black = "rgb(94, 94, 94)"
 
 function mudar(valorx){
     var texto = document.getElementById('fome_divider')
@@ -16,10 +21,14 @@ document.addEventListener('mousemove', (evento) => {
 toggle.addEventListener('click',(e)=>{
     var is_toggle = toggle.checked
     if(!is_toggle == true){
-        fome.style.background = 'black'
+        body.style.color = white
+        body.style.background = black
+        h2.style.background = white
     }
     else{
-        fome.style.background = 'white'
+        body.style.color = black
+        body.style.background = white
+        h2.style.background = black
     }
 })
     
