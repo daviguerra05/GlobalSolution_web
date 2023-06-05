@@ -41,6 +41,9 @@ nav{
     color: inherit;
 }
 
+.menu_left a:hover{
+    text-decoration: underline;
+}
 .menu_right{
     display: flex;
     gap: 3rem;
@@ -336,6 +339,21 @@ footer{
 }
 
 .footer_container{
+    padding-top: 2%;
     display: flex;
     justify-content: space-around;
+}
+
+.footer_container h1{
+    font-size: 1.5vw;
+}
+
+.footer_container a{
+    text-decoration: none;
+    color: #868686;
+    font-size: 1vw;
+}
+
+.footer_container a:hover{
+    color: #91c10c;
 }
