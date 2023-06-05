@@ -5,7 +5,6 @@ window.addEventListener('load', (loaded)=>{
     const h2 = document.querySelector('h2')
     const h3 = document.querySelector('h3')
     const ai = document.querySelector('#AI')
-    var circle = document.getElementById('circle')
 
     var white = "#FCF7F8"
     var black = "#00241B"
@@ -38,5 +37,8 @@ window.addEventListener('load', (loaded)=>{
             h3.style.background = black
         }
     })
+
+
+    
 
 })
