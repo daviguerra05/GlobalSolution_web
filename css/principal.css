@@ -33,6 +33,7 @@ nav{
     padding: 0.5% 3% 0.5% 3%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     font-size: 1.2vw;
 }
 
@@ -46,6 +47,7 @@ nav{
 }
 .menu_right{
     display: flex;
+    align-items: center;
     gap: 3rem;
 }
 .menu_right ul{
@@ -302,6 +304,7 @@ nav{
     font-size: 5.5vw;
     font-weight: 500;
     margin-top: 5%;
+    align-self: center;
 }
 
 .carro{
@@ -311,15 +314,12 @@ nav{
     height: 60vh;
     background: pink;
     display: flex;
-    position: relative;
-    z-index: 2;
+    transition: transform 0.3s ease-in-out;
 }
 
 #carro1{
     width: 50%;
     border-radius: 10px;
-    position: relative;
-    z-index: -1;
     
     background-image: url('../images/arroz5.jpg');
     background-position: center;
@@ -328,12 +328,47 @@ nav{
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------------------- */
+/* -----------------------------------------------------------sec5---------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------- */
+
+#sec5{
+    width: 100vw;
+    height: 200vh;
+    background:#00241B;
+}
+
+.sec5_container{
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec5_title{
+    font-size: 5vw;
+    color: #eff6ee;
+}
+.mapa{
+    width: 80%;
+    height: 80vh;
+    margin-top: 5%;
+    border-radius: 10px;
+    
+    background-image: url('../images/mapa.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------- */
 /* -----------------------------------------------------------footer---------------------------------------------------------------------- */
 /* ------------------------------------------------------------------------------------------------------------------------------------- */
 
 footer{
     width: 100%;
-    height: 25vh;
+    height: 100%;
+    padding-bottom: 2%;
     color: #FCF7F8;
     background: #000f04;
 }
@@ -346,6 +381,11 @@ footer{
 
 .footer_container h1{
     font-size: 1.5vw;
+}
+
+.footer_container ul{
+    list-style: none;
+
 }
 
 .footer_container a{
