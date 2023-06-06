@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* color: #FCF7F8; */
+    color: black;
+}
+
+#S_login{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.imagem{
+    width: 50%;
+    height: 100%;
+    background-image: url('../images/planta2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Login_container{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    width: 60%;
+    background: green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.login label{
+    margin-left: 2%;
+}
+
+.login input{
+    height: 4vh;
+    border: none;
+    border-radius: 50px;
+    text-indent: 2%;
+}
+
+.login button{
+    margin-top: 5%;
+    height: 4vh;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}

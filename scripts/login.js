@@ -6,7 +6,7 @@ document.getElementById("loginButton").addEventListener("click", function () {
 
 
     if (usuarioInput === "Admin" && senhaInput === "123456") {
-        alert("Seje Bem vindo Admin")
+        alert("Seja Bem-Vindo Admin!")
 
         const url = "https://www.unicef.org/brazil/comunicados-de-imprensa/relatorio-da-onu-numeros-globais-de-fome-subiram-para-cerca-de-828-milhoes-em-2021";
 
