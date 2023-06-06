@@ -380,8 +380,79 @@ nav{
     background-image: url('../images/mapanew.png');
 }
 
+/* ------------------------------------------------------------------------------------------------------------------------------------- */
+/* -----------------------------------------------------------form---------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------- */
 
+#form{
+    width: 100%;
+    padding: 5% 0 5% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: inherit;
+    color: inherit;
+}
 
+.form_container{
+    width: 40%;
+    font-size: 2vw;
+    /* background: linear-gradient(90deg , #d11693 30%, #91c10c); */
+    box-shadow: 0 0 60px rgb(255, 92, 124, 0.5);
+    padding: 3% 1% 2% 1%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form_container h2{
+    width: 50%;
+    height: 2px;
+    align-self: center;
+    background: black;
+}
+
+.form_title{
+    align-self: center;
+    padding-bottom: 2%;
+    font-weight: 600;
+}
+
+.form_container form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form_container input{
+    text-indent: 1%;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.5vw;
+    height: 5vh;
+    background: #943749;
+}
+
+.form_container input:focus{
+    background:#FCF7F8 ;
+}
+
+.form_container button{
+    width: 70%;
+    height: 7vh;
+    align-self: center;
+    font-size: 1.5vw;
+    margin-top: 5%;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    background: white;
+    border: none;
+}
+
+.form_container button:hover{
+    transform: translateY(-10%);
+    background:#91c10c;
+}
 /* ------------------------------------------------------------------------------------------------------------------------------------- */
 /* -----------------------------------------------------------footer---------------------------------------------------------------------- */
 /* ------------------------------------------------------------------------------------------------------------------------------------- */
