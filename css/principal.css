@@ -331,6 +331,9 @@ nav{
     filter: blur(0);
 }
 
+/* #carrossel img:hover{
+    cursor: pointer;
+} */
 
 .carrossel_botoes{
     padding: 2% 8% 0 8%;
