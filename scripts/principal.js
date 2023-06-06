@@ -52,6 +52,51 @@ window.addEventListener('load', (loaded)=>{
     })
 
     form.onsubmit = function(){
-        alert('FOI!')
+        alert('Mensagem enviada com sucesso!')
     }
+
+    let proximo = document.getElementById('proximo')
+    let anterior = document.getElementById('anterior')
+    let carrossel = document.getElementById('carrossel')
+    let n = 2
+
+    function remover_blur(){
+        var img = document.querySelector(`#carrossel img:nth-child(${n})`)
+        img.style.filter = 'blur(0)'
+    }
+
+    function adicionar_blur(){
+        var img = document.querySelector(`#carrossel img:nth-child(${n})`)
+        img.style.filter = 'blur(5px)'
+    }
+
+    function atulizar_blur(x){
+        adicionar_blur()
+        n = n + x
+        remover_blur()
+        if(n == 1){
+            carrossel.style.transform = 'translate(13%)'
+        }
+        if(n == 2){
+            carrossel.style.transform = 'translate(-6%)'
+        }
+        if(n == 3){
+            carrossel.style.transform = 'translate(-26%)'
+        }
+        if(n == 4){
+            carrossel.style.transform = 'translate(-46%)'
+        }
+    }
+    
+    proximo.addEventListener('click', (e)=>{
+        if(n != 4){
+            atulizar_blur(1)
+        }  
+    })
+
+    anterior.addEventListener('click', (e)=>{
+        if(n != 1){
+            atulizar_blur(-1)
+        }
+    })
 })
