@@ -1,28 +1,38 @@
 window.addEventListener('load', (loaded)=>{
     
+    // Variáveis para elementos do HTML
     const toggle = document.querySelector('#toggle')
     const body = document.querySelector('body')
     const h2 = document.querySelector('h2')
     const h3 = document.querySelector('h3')
-    const ai = document.querySelector('#AI')
     const sec5 = document.getElementById('sec5')
 
+    let form = document.querySelector('form')
+    let name = document.getElementById('name')
+    let number = document.getElementById('number')
+    let email = document.getElementById('email') 
+    let mensagem = document.getElementById('mensagem')
+    let formButton = document.getElementById('formButton')
+
+    // Variáveis para dark mode
     var white = "#FCF7F8"
     var black = "#00241B"
 
-
+    // Função para x do divider se mover com o x do mouse 
     function mudar(valorx){
         var texto = document.getElementById('fome_divider')
         valorx = (valorx - 2000)/40;
         texto.style.transform = `translate( ${valorx}%)`
     }
 
+    // Evento para executar a função do divider
     document.addEventListener('mousemove', (evento) => {
         const mouseX = evento.clientX;
         mudar(mouseX)
-        // console.log(mouseX)
     })
 
+
+    // Lógica para dark mode
     toggle.addEventListener('click',(e)=>{
         var is_toggle = toggle.checked
         if(!is_toggle == true){
@@ -41,7 +51,7 @@ window.addEventListener('load', (loaded)=>{
         }
     })
 
-
-    
-
+    form.onsubmit = function(){
+        alert('FOI!')
+    }
 })
