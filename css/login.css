@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;500;600;700;800&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -6,6 +8,7 @@
 body{
     /* color: #FCF7F8; */
     color: black;
+    font-family: 'Wix Madefor Display', sans-serif;
 }
 
 #S_login{
@@ -33,34 +36,74 @@ body{
 
 .login{
     width: 60%;
-    background: green;
+    /* background: green; */
+    font-size: 1.5vw;
+    font-weight: 700;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+.login h2{
+    margin-top: 2%;
+    width: 50%;
+    height: 3px;
+    background: linear-gradient(90deg, #91c10c, #13ffd8 40%);
+}
 
 .login form{
     width: 100%;
+    padding-top: 5%;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
 }
 
 .login label{
+    font-size: 1vw;
     margin-left: 2%;
 }
 
 .login input{
     height: 4vh;
-    border: none;
+    border: 1px solid black;
     border-radius: 50px;
     text-indent: 2%;
 }
 
 .login button{
-    margin-top: 5%;
-    height: 4vh;
+    font-size: 0.9vw;
+    font-weight: 600;
+    margin: 5% 0 5% 0;
+    width: 80%;
+    height: 5vh;
+    align-self: center;
     border: none;
     border-radius: 50px;
     cursor: pointer;
+    background: linear-gradient(90deg, rgba(0,0,0,0) 40%, #91c10c);
+    background-color: #13ffd8;
+    box-shadow: 0 0 20px rgba(19, 255, 216,0.5);
+    transition: background 1s ease-in-out, transform 0.5s ease;
+}
+
+.login button:hover{
+    transform: translateY(-10%);
+    background: linear-gradient(90deg, rgba(0,0,0,0) 40%, #13ffd8);
+    background-color: #91c10c;
+    box-shadow: 0 0 20px rgba(145, 193, 12,0.5);
+}
+
+a{
+    font-size: 1vw;
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.5s ease;
+    padding: 0.5% 5% 1% 5%;
+    border-radius: 50px;
+}
+
+a:hover{
+    letter-spacing: 5px;
+    text-decoration: underline;
+    border: 1px solid #13ffd8;
 }
