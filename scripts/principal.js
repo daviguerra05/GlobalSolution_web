@@ -5,6 +5,7 @@ window.addEventListener('load', (loaded)=>{
     const h2 = document.querySelector('h2')
     const h3 = document.querySelector('h3')
     const ai = document.querySelector('#AI')
+    const sec5 = document.getElementById('sec5')
 
     var white = "#FCF7F8"
     var black = "#00241B"
@@ -29,12 +30,14 @@ window.addEventListener('load', (loaded)=>{
             body.style.background = black
             h2.style.background = white
             h3.style.background = white
+            sec5.style.background = 'black'
         }
         else{
             body.style.color = black
             body.style.background = white
             h2.style.background = black
             h3.style.background = black
+            sec5.style.background = black
         }
     })
 
