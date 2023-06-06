@@ -394,65 +394,88 @@ nav{
     color: inherit;
 }
 
+.form_main{
+    width: 50%;
+    display: flex;
+}
+
+.form_aside{
+    width: 100%;
+    border-radius: 0 20px 20px 0;
+    
+    background-image: url('../images/arroz3.jpg');
+    background-position: 0% 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .form_container{
-    width: 40%;
-    font-size: 2vw;
-    /* background: linear-gradient(90deg , #d11693 30%, #91c10c); */
-    box-shadow: 0 0 60px rgb(255, 92, 124, 0.5);
-    padding: 3% 1% 2% 1%;
-    border-radius: 20px;
+    width: 100%;
+    background: #000f04;
+    color: #FCF7F8;
+    padding: 4% 4% 4% 2%;
+    border-radius: 20px 0 0 20px;
     display: flex;
     flex-direction: column;
 }
 
-.form_container h2{
-    width: 50%;
-    height: 2px;
-    align-self: center;
-    background: black;
-}
-
 .form_title{
-    align-self: center;
+    font-size: 2vw;
     padding-bottom: 2%;
     font-weight: 600;
+}
+
+.form_container h2{
+    width: 25%;
+    height: 2px;
+    margin-bottom: 5%;
+    background: #FCF7F8;
 }
 
 .form_container form{
     display: flex;
     flex-direction: column;
+    gap: 0.5rem;
+}
+
+.form_container label{
+    font-size: 1vw;
 }
 
 .form_container input{
-    text-indent: 1%;
-    border-radius: 10px;
-    border: none;
-    font-size: 1.5vw;
     height: 5vh;
-    background: #943749;
+    font-size: 1vw;
+    text-indent: 1.5%;
+    border-radius: 5px;
+    border: 1px solid #00241B;
+    background: #FCF7F8;
+    /* box-shadow: 0 0 10px rgb(0, 0, 0, 0.3); */
     transition: 0.4s ease;
 }
 
 .form_container input:focus{
-    background:#FCF7F8 ;
+    background: #91c10c;
+    color: #FCF7F8;
 }
 
 .form_container button{
-    width: 70%;
-    height: 7vh;
-    align-self: center;
-    font-size: 1.5vw;
-    margin-top: 5%;
-    border-radius: 100px;
+    width: 40%;
+    height: 5vh;
+    background:#91c10c;
+    color: #FCF7F8;
+    font-size: 1vw;
+    margin: 5% 0 0 1%;
+    border-radius: 10px;
     cursor: pointer;
     transition: 0.3s ease;
-    background: white;
+    
     border: none;
 }
 
 .form_container button:hover{
     transform: translateY(-10%);
-    background:#91c10c;
+    color: #000f04;
+    background: #FCF7F8;
 }
 /* ------------------------------------------------------------------------------------------------------------------------------------- */
 /* -----------------------------------------------------------footer---------------------------------------------------------------------- */
@@ -467,7 +490,7 @@ footer{
 }
 
 .footer_container{
-    padding-top: 2%;
+    padding: 2% 10% 0 10%;
     display: flex;
     justify-content: space-around;
 }
