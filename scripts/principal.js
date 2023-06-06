@@ -6,6 +6,8 @@ window.addEventListener('load', (loaded)=>{
     const h2 = document.querySelector('h2')
     const h3 = document.querySelector('h3')
     const sec5 = document.getElementById('sec5')
+    const left_arrow = document.getElementById('left_arrow')
+    const right_arrow = document.getElementById('right_arrow') 
 
     let form = document.querySelector('form')
     let name = document.getElementById('name')
@@ -41,6 +43,8 @@ window.addEventListener('load', (loaded)=>{
             h2.style.background = white
             h3.style.background = white
             sec5.style.background = 'black'
+            left_arrow.src='../images/left-arrow_white.png'
+            right_arrow.src='../images/right-arrow_white.png'
         }
         else{
             body.style.color = black
@@ -48,6 +52,9 @@ window.addEventListener('load', (loaded)=>{
             h2.style.background = black
             h3.style.background = black
             sec5.style.background = black
+
+            right_arrow.src='../images/right-arrow.png'
+            left_arrow.src='../images/left-arrow.png'
         }
     })
 
@@ -78,10 +85,10 @@ window.addEventListener('load', (loaded)=>{
             carrossel.style.transform = 'translate(13%)'
         }
         if(n == 2){
-            carrossel.style.transform = 'translate(-6%)'
+            carrossel.style.transform = 'translate(-7%)'
         }
         if(n == 3){
-            carrossel.style.transform = 'translate(-26%)'
+            carrossel.style.transform = 'translate(-27%)'
         }
         if(n == 4){
             carrossel.style.transform = 'translate(-46%)'
