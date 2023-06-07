@@ -94,7 +94,7 @@ nav{
     line-height: 0.9;
 }
 .h_paragraph{
-    padding-top: 1%;
+    padding: 1% 10% 0 0;
     font-size: 1.7vw;
     font-weight: 500;
 }
