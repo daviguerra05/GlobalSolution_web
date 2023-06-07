@@ -10,11 +10,6 @@ window.addEventListener('load', (loaded)=>{
     const right_arrow = document.getElementById('right_arrow') 
 
     let form = document.querySelector('form')
-    let name = document.getElementById('name')
-    let number = document.getElementById('number')
-    let email = document.getElementById('email') 
-    let mensagem = document.getElementById('mensagem')
-    let formButton = document.getElementById('formButton')
 
     // Variáveis para dark mode
     var white = "#FCF7F8"
