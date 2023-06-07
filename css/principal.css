@@ -262,7 +262,7 @@ nav{
 }
 
 .AI_img{
-    width: 50%;
+    width: 140%;
     height: 90vh;
     position: sticky;
     top: 5%;
@@ -272,7 +272,7 @@ nav{
 
 .AI_Title{
     padding-top: 15%;
-    padding-left: 8%;
+    padding-left: 12%;
 }
 
 .AI_Title h1{
@@ -283,6 +283,7 @@ nav{
 
 .AI_Title p{
     padding-top: 1%;
+    padding-right: 8%;
     font-size: 1.5vw;
     font-weight: 400;
     letter-spacing: 0.1px;
