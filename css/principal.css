@@ -168,7 +168,7 @@ nav{
 }
 
 #fome_right_img{
-    width: 80vw;
+    width: 90vw;
     height: 80vh;
     border-radius: 15%;
     margin: 5% 10% 0 0;
@@ -177,11 +177,11 @@ nav{
     background-image: url('../images/arroz1r.jpg');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 120%;
+    background-size: 130%;
 }
 
 #fome_right_img:hover{
-    background-size: 130%;
+    background-size: 140%;
 }
 
 /*-------------------------------------------------------*/
@@ -229,20 +229,20 @@ nav{
 }
 
 #fome_right_img2{
-    width: 60vw;
+    width: 70vw;
     height: 80vh;
     border-radius: 15%;
     margin: 5% 0 0 10%;
     transition: all 0.5s ease-in-out;
 
-    background-image: url('../images/arroz1r.jpg');
+    background-image: url('../images/arroz2.jpg');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 120%;
+    background-size: 130%;
 }
 
 #fome_right_img2:hover{
-    background-size: 130%;
+    background-size: 140%;
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------------------- */
