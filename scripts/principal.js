@@ -85,10 +85,10 @@ window.addEventListener('load', (loaded)=>{
             carrossel.style.transform = 'translate(13%)'
         }
         if(n == 2){
-            carrossel.style.transform = 'translate(-7%)'
+            carrossel.style.transform = 'translate(-5.5%)'
         }
         if(n == 3){
-            carrossel.style.transform = 'translate(-27%)'
+            carrossel.style.transform = 'translate(-26.5%)'
         }
         if(n == 4){
             carrossel.style.transform = 'translate(-46%)'
