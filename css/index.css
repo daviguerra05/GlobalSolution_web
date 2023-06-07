@@ -11,6 +11,9 @@ body{
     background: #000f04;
 }
 
+
+
+
 .container{
     padding-top: 5%;
     width: 100%;
@@ -19,7 +22,7 @@ body{
     align-items: center;
 }
 
-h1{
+.container h1{
     font-size: 4vw;
     letter-spacing: 0.1px;
 }
