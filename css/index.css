@@ -7,5 +7,43 @@
 
 body{
     font-family: 'Wix Madefor Display', sans-serif;
+    color: #FCF7F8;
+    background: #000f04;
+}
+
+.container{
+    padding-top: 5%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 4vw;
+    letter-spacing: 0.1px;
+}
+
+button{
+    cursor: pointer;
+    margin-top: 2%;
+    width: 20%;
+    height: 5vh;
+    border: none;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FCF7F8;
+    box-shadow: 0 0 20px white;
+    transition: 0.5s ease;
+}
+
+button:hover{
+    transform: scale(105%) translateY(-10%);
+}
+
+a{
+    text-decoration: none;
     color: black;
 }
